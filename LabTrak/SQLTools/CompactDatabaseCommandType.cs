@@ -1,0 +1,5 @@
+﻿enum CompactDatabaseCommandType
+{
+    SQLReadColumn,
+    SQLWrite,
+}

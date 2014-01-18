@@ -12,6 +12,11 @@ namespace LabTrak.SQLTools
         public SqlCeCommand SqlCeCommandString { get { return mSqlCeCommandString; } set { mSqlCeCommandString = value; } }
         private SqlCeCommand mSqlCeCommandString;
 
-        public void 
+        public void CreateCommand(SqlCeCommand pSqlCommand)
+        {
+            mSqlCeCommandString = pSqlCommand;
+        }
+
+        //ToDo: Parse command types based on the CommandString and the Query it contains
     }
 }

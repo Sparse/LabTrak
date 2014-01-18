@@ -77,7 +77,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLTools\CompactDatabaseCommand.cs" />
+    <Compile Include="SQLTools\CompactDatabaseCommandType.cs" />
     <Compile Include="SQLTools\CompactDataBaseConnection.cs" />
+    <Compile Include="SQLTools\CompactDatabaseReader.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
